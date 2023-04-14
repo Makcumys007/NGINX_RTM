@@ -1,0 +1,566 @@
+2023/03/28 20:35:23 [emerg] 10500#6448: unknown directive "safe" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:38:16 [emerg] 9892#9864: unknown directive "safe" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:38:18 [emerg] 10720#5096: unknown directive "safe" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:38:18 [emerg] 9560#11112: unknown directive "safe" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:38:19 [emerg] 8592#5804: unknown directive "safe" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:38:20 [emerg] 5116#1388: unknown directive "safe" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:40:19 [emerg] 916#11100: unknown directive "safe" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:40:59 [emerg] 10856#3852: unknown directive "safe_path" in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:19
+2023/03/28 20:43:47 [notice] 9424#8788: using the "select" event method
+2023/03/28 20:43:47 [notice] 9424#8788: nginx/1.14.1
+2023/03/28 20:43:47 [info] 9424#8788: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 20:43:47 [notice] 9424#8788: start worker processes
+2023/03/28 20:43:47 [notice] 9424#8788: start worker process 9872
+2023/03/28 20:43:47 [notice] 9872#1400: nginx/1.14.1
+2023/03/28 20:43:47 [info] 9872#1400: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 20:43:47 [notice] 9872#1400: create thread 7936
+2023/03/28 20:43:47 [notice] 9872#1400: create thread 8476
+2023/03/28 20:43:47 [notice] 9872#1400: create thread 9940
+2023/03/28 20:44:17 [info] 9872#7936: *1 client connected '10.34.78.125'
+2023/03/28 20:44:18 [info] 9872#7936: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.78.125/live' tc_url='rtmp://10.34.78.125/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:44:18 [info] 9872#7936: *1 createStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:44:18 [info] 9872#7936: *1 publish: name='stream' args='' type=live silent=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:43 [info] 9872#7936: *1 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:43 [info] 9872#7936: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:43 [info] 9872#7936: *1 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:43 [info] 9872#7936: *1 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:55 [info] 9872#7936: *2 client connected '10.34.78.125'
+2023/03/28 20:55:55 [info] 9872#7936: *2 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.78.125/hls' tc_url='rtmp://10.34.78.125/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:55 [info] 9872#7936: *2 connect: application not found: 'hls', client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:55 [info] 9872#7936: *2 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:55 [info] 9872#7936: *2 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:58 [info] 9872#7936: *3 client connected '10.34.78.125'
+2023/03/28 20:55:58 [info] 9872#7936: *3 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.78.125/hls' tc_url='rtmp://10.34.78.125/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:58 [info] 9872#7936: *3 connect: application not found: 'hls', client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:58 [info] 9872#7936: *3 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:55:58 [info] 9872#7936: *3 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:56:37 [emerg] 10372#6936: invalid number of arguments in "hls_path" directive in C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/conf/nginx.conf:20
+2023/03/28 20:58:22 [notice] 10936#7888: using the "select" event method
+2023/03/28 20:58:22 [notice] 10936#7888: nginx/1.14.1
+2023/03/28 20:58:22 [info] 10936#7888: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 20:58:22 [notice] 10936#7888: start worker processes
+2023/03/28 20:58:22 [notice] 10936#7888: start worker process 10284
+2023/03/28 20:58:22 [notice] 10284#7428: nginx/1.14.1
+2023/03/28 20:58:22 [info] 10284#7428: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 20:58:22 [notice] 10284#7428: create thread 5308
+2023/03/28 20:58:22 [notice] 10284#7428: create thread 6160
+2023/03/28 20:58:22 [notice] 10284#7428: create thread 10500
+2023/03/28 20:58:28 [info] 10284#5308: *1 client connected '10.34.78.125'
+2023/03/28 20:58:28 [info] 10284#5308: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.78.125/hls' tc_url='rtmp://10.34.78.125/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:58:28 [info] 10284#5308: *1 createStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:58:28 [info] 10284#5308: *1 publish: name='stream' args='' type=live silent=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 20:59:07 [info] 10284#5308: *2 client connected '10.34.78.125'
+2023/03/28 21:00:07 [info] 10284#5308: *2 handshake: recv: client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:00:07 [info] 10284#5308: *2 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:00:07 [info] 10284#5308: *2 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:00:07 [info] 10284#5308: *3 client connected '10.34.78.125'
+2023/03/28 21:01:07 [info] 10284#5308: *3 handshake: recv: client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:01:07 [info] 10284#5308: *3 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:01:07 [info] 10284#5308: *3 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:01:24 [info] 10284#5308: *4 client connected '10.34.78.125'
+2023/03/28 21:02:25 [info] 10284#5308: *4 handshake: recv: client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:25 [info] 10284#5308: *4 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:25 [info] 10284#5308: *4 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:25 [info] 10284#5308: *5 client connected '10.34.78.125'
+2023/03/28 21:02:56 [info] 10284#5308: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:56 [info] 10284#5308: *5 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:56 [info] 10284#5308: *5 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:56 [info] 10284#5308: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:56 [info] 10284#5308: *1 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:02:56 [info] 10284#5308: *1 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 21:04:19 [notice] 7476#5696: using the "select" event method
+2023/03/28 21:04:19 [notice] 7476#5696: nginx/1.14.1
+2023/03/28 21:04:19 [info] 7476#5696: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 21:04:19 [notice] 7476#5696: start worker processes
+2023/03/28 21:04:19 [notice] 7476#5696: start worker process 9504
+2023/03/28 21:04:20 [notice] 9504#1328: nginx/1.14.1
+2023/03/28 21:04:20 [info] 9504#1328: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 21:04:20 [notice] 9504#1328: create thread 8024
+2023/03/28 21:04:20 [notice] 9504#1328: create thread 9752
+2023/03/28 21:04:20 [notice] 9504#1328: create thread 8404
+2023/03/28 21:04:34 [info] 9504#8024: *1 client connected '192.168.25.176'
+2023/03/28 21:04:34 [info] 9504#8024: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.25.176/hls' tc_url='rtmp://192.168.25.176/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:04:34 [info] 9504#8024: *1 createStream, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:04:34 [info] 9504#8024: *1 publish: name='stream' args='' type=live silent=0, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:04:54 [info] 9504#8024: *2 client connected '192.168.25.176'
+2023/03/28 21:05:28 [info] 9504#8024: *2 disconnect, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:05:28 [info] 9504#8024: *2 deleteStream, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:05:28 [info] 9504#8024: *3 client connected '192.168.25.176'
+2023/03/28 21:05:28 [info] 9504#8024: *3 disconnect, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:05:28 [info] 9504#8024: *3 deleteStream, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:11:44 [info] 9504#8024: *1 deleteStream, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:11:44 [info] 9504#8024: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:11:44 [info] 9504#8024: *1 disconnect, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:11:44 [info] 9504#8024: *1 deleteStream, client: 192.168.25.176, server: 0.0.0.0:1935
+2023/03/28 21:12:21 [info] 9504#8024: *4 client connected '127.0.0.1'
+2023/03/28 21:12:21 [info] 9504#8024: *4 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/hls' tc_url='rtmp://localhost/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2023/03/28 21:12:21 [info] 9504#8024: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2023/03/28 21:12:21 [info] 9504#8024: *4 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2023/03/28 21:12:37 [info] 9504#8024: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2023/03/28 21:12:37 [info] 9504#8024: *4 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2023/03/28 21:12:37 [info] 9504#8024: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2023/03/28 21:12:37 [info] 9504#8024: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2023/03/28 21:57:40 [notice] 3680#7416: using the "select" event method
+2023/03/28 21:57:40 [notice] 3680#7416: nginx/1.14.1
+2023/03/28 21:57:40 [info] 3680#7416: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 21:57:40 [notice] 3680#7416: start worker processes
+2023/03/28 21:57:40 [notice] 3680#7416: start worker process 2504
+2023/03/28 21:57:40 [notice] 2504#7904: nginx/1.14.1
+2023/03/28 21:57:40 [info] 2504#7904: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 21:57:40 [notice] 2504#7904: create thread 3532
+2023/03/28 21:57:40 [notice] 2504#7904: create thread 5296
+2023/03/28 21:57:40 [notice] 2504#7904: create thread 7896
+2023/03/28 21:58:12 [info] 2504#3532: *1 client connected '10.34.48.144'
+2023/03/28 21:58:12 [info] 2504#3532: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.48.144/hls' tc_url='rtmp://10.34.48.144/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 21:58:12 [info] 2504#3532: *1 createStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 21:58:12 [info] 2504#3532: *1 publish: name='stream' args='' type=live silent=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:01:13 [info] 2504#3532: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:01:13 [info] 2504#3532: *1 disconnect, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:01:13 [info] 2504#3532: *1 deleteStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:01:13 [info] 2504#3532: *4 client 10.34.48.144 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2023/03/28 22:01:13 [info] 2504#3532: *2 client 10.34.48.144 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2023/03/28 22:01:13 [info] 2504#3532: *3 client 10.34.48.144 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2023/03/28 22:02:17 [info] 2504#3532: *5 client connected '10.34.78.125'
+2023/03/28 22:02:17 [info] 2504#3532: *5 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.78.125/hls' tc_url='rtmp://10.34.78.125/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 22:02:17 [info] 2504#3532: *5 createStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 22:02:17 [info] 2504#3532: *5 publish: name='stream' args='' type=live silent=0, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 22:03:47 [info] 2504#3532: *7 client 10.34.78.125 closed keepalive connection
+2023/03/28 22:03:47 [info] 2504#3532: *8 client 10.34.78.125 closed keepalive connection
+2023/03/28 22:03:54 [info] 2504#3532: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 22:03:54 [info] 2504#3532: *5 disconnect, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 22:03:54 [info] 2504#3532: *5 deleteStream, client: 10.34.78.125, server: 0.0.0.0:1935
+2023/03/28 22:04:38 [info] 2504#3532: *9 client connected '10.34.48.144'
+2023/03/28 22:04:38 [info] 2504#3532: *9 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.48.144/hls' tc_url='rtmp://10.34.48.144/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:04:38 [info] 2504#3532: *9 createStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:04:38 [info] 2504#3532: *9 publish: name='stream' args='' type=live silent=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:05:23 [info] 2504#3532: *11 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:05:23 [info] 2504#3532: *10 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:06:02 [error] 2504#3532: *15 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:06:55 [info] 2504#3532: *13 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:06:55 [info] 2504#3532: *14 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:07:01 [info] 2504#3532: *16 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:08:02 [info] 2504#3532: *17 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:10:23 [info] 2504#3532: *18 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:11:25 [error] 2504#3532: *19 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/MY_VIDEO_POSTER.jpg" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /MY_VIDEO_POSTER.jpg HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:11:25 [error] 2504#3532: *19 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/MY_VIDEO.mp4" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /MY_VIDEO.mp4 HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:11:25 [error] 2504#3532: *19 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/MY_VIDEO.webm" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /MY_VIDEO.webm HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:11:26 [error] 2504#3532: *19 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/MY_VIDEO_POSTER.jpg" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /MY_VIDEO_POSTER.jpg HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:11:26 [error] 2504#3532: *19 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/MY_VIDEO_POSTER.jpg" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /MY_VIDEO_POSTER.jpg HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:11:26 [error] 2504#3532: *19 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/MY_VIDEO.mp4" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /MY_VIDEO.mp4 HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:11:26 [error] 2504#3532: *19 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/MY_VIDEO.webm" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /MY_VIDEO.webm HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:12:25 [info] 2504#3532: *20 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:15:43 [info] 2504#3532: *22 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:17:27 [info] 2504#3532: *24 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:17:45 [info] 2504#3532: *9 deleteStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:17:45 [info] 2504#3532: *9 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:17:45 [info] 2504#3532: *9 disconnect, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:17:45 [info] 2504#3532: *9 deleteStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:17:46 [info] 2504#3532: *25 client connected '10.34.48.144'
+2023/03/28 22:17:46 [info] 2504#3532: *25 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.48.144/hls' tc_url='rtmp://10.34.48.144/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:17:46 [info] 2504#3532: *25 createStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:17:46 [info] 2504#3532: *25 publish: name='stream' args='' type=live silent=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:19:19 [info] 2504#3532: *26 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:24:57 [notice] 4548#9096: using the "select" event method
+2023/03/28 22:24:57 [notice] 4548#9096: nginx/1.14.1
+2023/03/28 22:24:57 [info] 4548#9096: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 22:24:57 [notice] 4548#9096: start worker processes
+2023/03/28 22:24:57 [notice] 4548#9096: start worker process 10144
+2023/03/28 22:24:57 [notice] 10144#10416: nginx/1.14.1
+2023/03/28 22:24:57 [info] 10144#10416: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/28 22:24:57 [notice] 10144#10416: create thread 1224
+2023/03/28 22:24:57 [notice] 10144#10416: create thread 9472
+2023/03/28 22:24:57 [notice] 10144#10416: create thread 8484
+2023/03/28 22:24:57 [info] 10144#1224: *1 client connected '10.34.48.144'
+2023/03/28 22:24:57 [info] 10144#1224: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.48.144/hls' tc_url='rtmp://10.34.48.144/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:24:57 [info] 10144#1224: *1 createStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:24:57 [info] 10144#1224: *1 publish: name='stream' args='' type=live silent=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:05 [info] 10144#1224: *1 deleteStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:05 [info] 10144#1224: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:05 [info] 10144#1224: *1 disconnect, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:05 [info] 10144#1224: *1 deleteStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:12 [info] 10144#1224: *4 client connected '10.34.48.144'
+2023/03/28 22:25:12 [info] 10144#1224: *4 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.48.144/hls' tc_url='rtmp://10.34.48.144/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:12 [info] 10144#1224: *4 createStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:12 [info] 10144#1224: *4 publish: name='stream' args='' type=live silent=0, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:25:57 [error] 10144#1224: *3 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:26:07 [info] 10144#1224: *6 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:26:07 [info] 10144#1224: *7 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:26:07 [info] 10144#1224: *5 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:27:04 [error] 10144#1224: *8 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.2.104.174, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:27:30 [info] 10144#1224: *8 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:29:28 [info] 10144#1224: *10 client prematurely closed connection (10054: An existing connection was forcibly closed by the remote host) while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-183.ts HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:30:02 [info] 10144#1224: *11 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:32:49 [info] 10144#1224: *12 client prematurely closed connection (10054: An existing connection was forcibly closed by the remote host) while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-205.ts HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:36:02 [info] 10144#1224: *14 client prematurely closed connection while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-228.ts HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:36:02 [info] 10144#1224: *15 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:36:42 [info] 10144#1224: *16 client prematurely closed connection (10054: An existing connection was forcibly closed by the remote host) while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-231.ts HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:36:44 [info] 10144#1224: *18 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:36:44 [error] 10144#1224: *20 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.2.104.174, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:36:45 [info] 10144#1224: *17 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:37:08 [info] 10144#1224: *20 client prematurely closed connection while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-236.ts HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:38:15 [error] 10144#1224: *22 CreateFile() "C:\Users\a-abylkassovm\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.48.144, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:38:24 [info] 10144#1224: *21 client prematurely closed connection while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-243.ts HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:38:25 [info] 10144#1224: *19 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:39:13 [info] 10144#1224: *23 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.48.144, server: 0.0.0.0:5556
+2023/03/28 22:39:53 [info] 10144#1224: *25 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:40:28 [info] 10144#1224: *26 client prematurely closed connection while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-257.ts HTTP/1.1", host: "10.34.48.144:5556", referrer: "http://10.34.48.144:5556/"
+2023/03/28 22:44:24 [info] 10144#1224: *29 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:45:40 [info] 10144#1224: *32 client prematurely closed connection (10054: An existing connection was forcibly closed by the remote host) while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-290.ts HTTP/1.1", host: "10.34.48.144:5556"
+2023/03/28 22:45:48 [info] 10144#1224: *34 client prematurely closed connection (10054: An existing connection was forcibly closed by the remote host) while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-291.ts HTTP/1.1", host: "10.34.48.144:5556"
+2023/03/28 22:45:48 [info] 10144#1224: *33 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:45:48 [info] 10144#1224: *31 client 10.2.104.174 closed keepalive connection
+2023/03/28 22:46:03 [info] 10144#1224: *36 client prematurely closed connection (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-293.ts HTTP/1.1", host: "10.34.48.144:5556"
+2023/03/28 22:46:14 [info] 10144#1224: *38 client prematurely closed connection while sending response to client, client: 10.2.104.174, server: , request: "GET /hls/stream-293.ts HTTP/1.1", host: "10.34.48.144:5556"
+2023/03/28 22:46:50 [info] 10144#1224: *22 client 10.34.48.144 closed keepalive connection
+2023/03/28 22:48:23 [info] 10144#1224: *4 deleteStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:48:23 [info] 10144#1224: *4 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:48:23 [info] 10144#1224: *4 disconnect, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/28 22:48:23 [info] 10144#1224: *4 deleteStream, client: 10.34.48.144, server: 0.0.0.0:1935
+2023/03/29 06:53:35 [notice] 17276#13964: using the "select" event method
+2023/03/29 06:53:35 [notice] 17276#13964: nginx/1.14.1
+2023/03/29 06:53:35 [info] 17276#13964: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/29 06:53:35 [notice] 17276#13964: start worker processes
+2023/03/29 06:53:35 [notice] 17276#13964: start worker process 5008
+2023/03/29 06:53:36 [notice] 5008#21116: nginx/1.14.1
+2023/03/29 06:53:36 [info] 5008#21116: OS: 260200 build:9200, "", suite:100, type:1
+2023/03/29 06:53:36 [notice] 5008#21116: create thread 9956
+2023/03/29 06:53:36 [notice] 5008#21116: create thread 4088
+2023/03/29 06:53:36 [notice] 5008#21116: create thread 12056
+2023/03/29 06:56:42 [info] 5008#9956: *1 client connected '10.34.64.151'
+2023/03/29 06:56:42 [info] 5008#9956: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://10.34.64.151/hls' tc_url='rtmp://10.34.64.151/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 10.34.64.151, server: 0.0.0.0:1935
+2023/03/29 06:56:42 [info] 5008#9956: *1 createStream, client: 10.34.64.151, server: 0.0.0.0:1935
+2023/03/29 06:56:42 [info] 5008#9956: *1 publish: name='stream' args='' type=live silent=0, client: 10.34.64.151, server: 0.0.0.0:1935
+2023/03/29 06:57:54 [error] 5008#9956: *2 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.151, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 06:57:58 [info] 5008#9956: *3 client closed connection while waiting for request, client: 10.34.64.151, server: 0.0.0.0:5556
+2023/03/29 06:57:58 [info] 5008#9956: *2 client 10.34.64.151 closed keepalive connection
+2023/03/29 06:59:03 [info] 5008#9956: *5 client closed connection while waiting for request, client: 10.34.64.151, server: 0.0.0.0:5556
+2023/03/29 06:59:03 [info] 5008#9956: *4 client 10.34.64.151 closed keepalive connection
+2023/03/29 06:59:10 [error] 5008#9956: *6 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.151, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 06:59:13 [info] 5008#9956: *6 client 10.34.64.151 closed keepalive connection
+2023/03/29 06:59:23 [info] 5008#9956: *7 client 10.34.64.151 closed keepalive connection
+2023/03/29 06:59:33 [info] 5008#9956: *8 client 10.34.64.151 closed keepalive connection
+2023/03/29 06:59:43 [info] 5008#9956: *9 client 10.34.64.151 closed keepalive connection
+2023/03/29 06:59:53 [info] 5008#9956: *10 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:00:03 [info] 5008#9956: *11 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:00:13 [info] 5008#9956: *12 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:00:23 [info] 5008#9956: *13 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:00:33 [info] 5008#9956: *14 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:00:43 [info] 5008#9956: *15 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:00:53 [info] 5008#9956: *16 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:00:59 [error] 5008#9956: *19 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.99, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:01:02 [error] 5008#9956: *18 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.99, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:01:03 [info] 5008#9956: *17 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:01:13 [info] 5008#9956: *20 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:01:23 [info] 5008#9956: *21 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:01:33 [info] 5008#9956: *22 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:01:43 [info] 5008#9956: *23 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:02:03 [info] 5008#9956: *24 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:02:13 [info] 5008#9956: *25 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:02:23 [info] 5008#9956: *26 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:02:33 [info] 5008#9956: *27 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:02:43 [info] 5008#9956: *28 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:02:53 [info] 5008#9956: *29 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:03:03 [info] 5008#9956: *30 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:03:13 [info] 5008#9956: *31 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:03:23 [info] 5008#9956: *32 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:03:33 [info] 5008#9956: *33 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:03:43 [info] 5008#9956: *34 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:03:53 [info] 5008#9956: *35 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:04:03 [info] 5008#9956: *36 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:04:13 [info] 5008#9956: *37 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:04:23 [info] 5008#9956: *38 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:04:34 [info] 5008#9956: *39 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:04:44 [info] 5008#9956: *40 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:04:54 [info] 5008#9956: *41 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:05:04 [info] 5008#9956: *42 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:05:14 [info] 5008#9956: *43 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:05:24 [info] 5008#9956: *44 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:05:34 [info] 5008#9956: *45 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:05:44 [info] 5008#9956: *46 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:05:54 [info] 5008#9956: *47 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:06:04 [info] 5008#9956: *48 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:06:14 [info] 5008#9956: *49 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:06:24 [info] 5008#9956: *50 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:06:34 [info] 5008#9956: *51 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:06:44 [info] 5008#9956: *52 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:06:54 [info] 5008#9956: *53 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:07:04 [info] 5008#9956: *54 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:07:05 [info] 5008#9956: *56 client closed connection while waiting for request, client: 10.34.64.151, server: 0.0.0.0:5556
+2023/03/29 07:07:05 [info] 5008#9956: *55 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:07:34 [info] 5008#9956: *57 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:07:44 [info] 5008#9956: *58 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:07:54 [info] 5008#9956: *59 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:08:04 [info] 5008#9956: *60 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:08:14 [info] 5008#9956: *61 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:08:24 [info] 5008#9956: *62 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:08:34 [info] 5008#9956: *63 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:08:44 [info] 5008#9956: *64 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:08:51 [error] 5008#9956: *65 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.151, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:08:54 [info] 5008#9956: *66 client closed connection while waiting for request, client: 10.34.64.151, server: 0.0.0.0:5556
+2023/03/29 07:08:54 [info] 5008#9956: *65 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:08:58 [error] 5008#9956: *67 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.151, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:09:04 [info] 5008#9956: *68 client closed connection while waiting for request, client: 10.34.64.151, server: 0.0.0.0:5556
+2023/03/29 07:09:04 [info] 5008#9956: *67 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:09:14 [info] 5008#9956: *69 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:09:24 [info] 5008#9956: *70 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:09:34 [info] 5008#9956: *71 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:09:44 [info] 5008#9956: *72 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:09:54 [info] 5008#9956: *73 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:10:04 [info] 5008#9956: *74 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:10:14 [info] 5008#9956: *75 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:10:24 [info] 5008#9956: *76 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:10:34 [info] 5008#9956: *77 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:10:44 [info] 5008#9956: *78 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:10:54 [info] 5008#9956: *79 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:11:04 [info] 5008#9956: *80 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:11:14 [info] 5008#9956: *81 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:11:24 [info] 5008#9956: *82 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:11:34 [info] 5008#9956: *83 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:11:44 [info] 5008#9956: *84 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:11:54 [info] 5008#9956: *85 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:12:04 [info] 5008#9956: *86 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:12:14 [info] 5008#9956: *87 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:12:24 [info] 5008#9956: *88 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:12:34 [info] 5008#9956: *89 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:12:44 [info] 5008#9956: *90 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:12:55 [info] 5008#9956: *91 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:13:05 [info] 5008#9956: *92 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:13:15 [info] 5008#9956: *93 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:13:25 [info] 5008#9956: *94 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:13:35 [info] 5008#9956: *95 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:13:45 [info] 5008#9956: *96 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:13:55 [info] 5008#9956: *97 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:14:05 [info] 5008#9956: *98 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:14:15 [info] 5008#9956: *99 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:14:25 [info] 5008#9956: *100 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:14:35 [info] 5008#9956: *101 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:15:00 [info] 5008#9956: *102 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:15:10 [info] 5008#9956: *103 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:15:20 [info] 5008#9956: *104 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:15:30 [info] 5008#9956: *105 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:15:40 [info] 5008#9956: *106 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:15:50 [info] 5008#9956: *107 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:16:00 [info] 5008#9956: *108 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:16:10 [info] 5008#9956: *109 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:16:20 [info] 5008#9956: *110 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:16:30 [info] 5008#9956: *111 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:16:40 [info] 5008#9956: *112 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:16:50 [info] 5008#9956: *113 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:17:00 [info] 5008#9956: *114 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:17:10 [info] 5008#9956: *115 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:17:20 [info] 5008#9956: *116 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:17:30 [info] 5008#9956: *117 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:17:40 [info] 5008#9956: *118 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:17:50 [info] 5008#9956: *119 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:18:00 [info] 5008#9956: *120 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:18:20 [info] 5008#9956: *121 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:18:30 [info] 5008#9956: *122 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:18:40 [info] 5008#9956: *123 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:18:50 [info] 5008#9956: *124 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:19:10 [info] 5008#9956: *125 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:19:20 [info] 5008#9956: *126 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:19:30 [info] 5008#9956: *127 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:19:40 [info] 5008#9956: *128 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:19:50 [info] 5008#9956: *129 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:20:01 [info] 5008#9956: *130 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:20:11 [info] 5008#9956: *131 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:20:21 [info] 5008#9956: *132 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:20:31 [info] 5008#9956: *133 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:20:41 [info] 5008#9956: *134 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:28:55 [error] 5008#9956: *137 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/temp/hls/stream-43.ts" failed (2: The system cannot find the file specified), client: 10.34.64.99, server: , request: "GET /hls/stream-43.ts HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:29:00 [error] 5008#9956: *138 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.99, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:34:52 [info] 5008#9956: *144 client prematurely closed connection while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-265.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 07:34:52 [info] 5008#9956: *143 client 10.2.104.63 closed keepalive connection
+2023/03/29 07:35:08 [info] 5008#9956: *142 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:35:18 [info] 5008#9956: *148 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:35:33 [info] 5008#9956: *149 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:36:15 [info] 5008#9956: *146 WSASend() failed (10054: An existing connection was forcibly closed by the remote host) while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-274.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 07:41:49 [info] 5008#9956: *150 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:41:59 [info] 5008#9956: *151 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:42:34 [info] 5008#9956: *152 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:42:44 [info] 5008#9956: *153 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:42:54 [info] 5008#9956: *154 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:43:04 [info] 5008#9956: *155 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:43:14 [info] 5008#9956: *156 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:43:24 [info] 5008#9956: *157 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:43:34 [info] 5008#9956: *158 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:43:44 [info] 5008#9956: *159 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:43:54 [info] 5008#9956: *160 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:44:14 [info] 5008#9956: *161 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:44:24 [info] 5008#9956: *162 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:44:34 [info] 5008#9956: *163 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:44:44 [info] 5008#9956: *164 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:44:54 [info] 5008#9956: *165 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:45:04 [info] 5008#9956: *166 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:45:14 [info] 5008#9956: *167 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:45:24 [info] 5008#9956: *168 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:45:34 [info] 5008#9956: *169 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:45:44 [info] 5008#9956: *170 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:45:54 [info] 5008#9956: *171 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:46:04 [info] 5008#9956: *172 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:46:14 [info] 5008#9956: *175 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:46:24 [info] 5008#9956: *176 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:46:34 [info] 5008#9956: *177 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:46:44 [info] 5008#9956: *178 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:46:54 [info] 5008#9956: *179 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:47:04 [info] 5008#9956: *180 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:47:14 [info] 5008#9956: *181 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:47:24 [info] 5008#9956: *182 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:47:27 [info] 5008#9956: *184 client prematurely closed connection (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-355.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 07:47:34 [info] 5008#9956: *186 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:47:35 [error] 5008#9956: *188 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/temp/hls/stream-225.ts" failed (2: The system cannot find the file specified), client: 10.34.64.99, server: , request: "GET /hls/stream-225.ts HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:47:44 [info] 5008#9956: *190 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:47:54 [info] 5008#9956: *191 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:47:57 [error] 5008#9956: *189 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.99, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:48:04 [info] 5008#9956: *192 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:48:14 [info] 5008#9956: *193 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:48:24 [info] 5008#9956: *194 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:48:34 [info] 5008#9956: *195 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:48:44 [info] 5008#9956: *196 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:48:54 [info] 5008#9956: *197 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:49:04 [info] 5008#9956: *198 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:49:14 [info] 5008#9956: *199 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:49:24 [info] 5008#9956: *200 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:49:34 [info] 5008#9956: *201 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:49:44 [info] 5008#9956: *202 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:49:54 [info] 5008#9956: *203 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:50:04 [info] 5008#9956: *206 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:50:05 [info] 5008#9956: *205 client prematurely closed connection while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-372.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 07:50:14 [info] 5008#9956: *207 client prematurely closed connection (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-374.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 07:50:24 [info] 5008#9956: *210 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:50:34 [info] 5008#9956: *211 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:50:44 [info] 5008#9956: *212 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:50:54 [info] 5008#9956: *213 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:51:04 [info] 5008#9956: *214 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:51:14 [info] 5008#9956: *215 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:51:24 [info] 5008#9956: *216 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:51:34 [info] 5008#9956: *217 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:51:36 [info] 5008#9956: *209 client prematurely closed connection while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-382.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 07:51:36 [info] 5008#9956: *208 client 10.2.104.63 closed keepalive connection
+2023/03/29 07:51:39 [info] 5008#9956: *219 client prematurely closed connection while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-384.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 07:51:45 [info] 5008#9956: *220 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:51:55 [info] 5008#9956: *221 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:52:05 [info] 5008#9956: *222 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:52:15 [info] 5008#9956: *223 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:52:23 [error] 5008#9956: *225 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.157, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:52:25 [info] 5008#9956: *224 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:52:25 [error] 5008#9956: *226 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.157, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 07:52:35 [info] 5008#9956: *227 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:52:45 [info] 5008#9956: *228 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:52:55 [info] 5008#9956: *229 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:53:25 [info] 5008#9956: *230 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:53:40 [info] 5008#9956: *231 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:53:50 [info] 5008#9956: *232 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:54:00 [info] 5008#9956: *233 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:54:10 [info] 5008#9956: *234 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:54:20 [info] 5008#9956: *235 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:54:30 [info] 5008#9956: *236 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:54:40 [info] 5008#9956: *237 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:54:50 [info] 5008#9956: *238 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:55:00 [info] 5008#9956: *239 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:55:10 [info] 5008#9956: *240 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:55:20 [info] 5008#9956: *241 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:55:30 [info] 5008#9956: *242 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:55:40 [info] 5008#9956: *243 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:55:50 [info] 5008#9956: *244 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:56:00 [info] 5008#9956: *245 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:56:10 [info] 5008#9956: *246 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:56:20 [info] 5008#9956: *247 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:56:30 [info] 5008#9956: *248 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:56:40 [info] 5008#9956: *249 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:56:50 [info] 5008#9956: *250 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:57:00 [info] 5008#9956: *251 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:57:10 [info] 5008#9956: *252 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:57:20 [info] 5008#9956: *253 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:57:30 [info] 5008#9956: *254 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:57:40 [info] 5008#9956: *255 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:57:50 [info] 5008#9956: *256 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:58:00 [info] 5008#9956: *257 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:58:10 [info] 5008#9956: *258 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:58:20 [info] 5008#9956: *259 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:58:30 [info] 5008#9956: *260 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:58:40 [info] 5008#9956: *261 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:58:50 [info] 5008#9956: *262 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:59:00 [info] 5008#9956: *263 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:59:10 [info] 5008#9956: *264 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:59:20 [info] 5008#9956: *265 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:59:30 [info] 5008#9956: *266 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:59:40 [info] 5008#9956: *267 client 10.34.64.151 closed keepalive connection
+2023/03/29 07:59:50 [info] 5008#9956: *268 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:00:01 [info] 5008#9956: *269 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:00:11 [info] 5008#9956: *270 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:00:21 [info] 5008#9956: *271 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:00:31 [info] 5008#9956: *273 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:00:41 [info] 5008#9956: *275 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:00:51 [info] 5008#9956: *276 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:01:01 [info] 5008#9956: *277 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:01:11 [info] 5008#9956: *278 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:01:21 [info] 5008#9956: *279 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:01:31 [info] 5008#9956: *280 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:01:41 [info] 5008#9956: *281 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:01:51 [info] 5008#9956: *282 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:02:01 [info] 5008#9956: *283 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:02:11 [info] 5008#9956: *284 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:02:21 [info] 5008#9956: *285 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:02:31 [info] 5008#9956: *286 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:02:41 [info] 5008#9956: *287 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:02:51 [info] 5008#9956: *288 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:03:01 [info] 5008#9956: *289 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:03:11 [info] 5008#9956: *290 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:03:21 [info] 5008#9956: *291 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:03:28 [info] 5008#9956: *293 client 10.2.104.63 closed keepalive connection
+2023/03/29 08:03:28 [error] 5008#9956: *295 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.2.104.63, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 08:03:31 [info] 5008#9956: *292 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:03:41 [info] 5008#9956: *296 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:03:51 [info] 5008#9956: *297 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:03:55 [info] 5008#9956: *294 client 10.2.104.63 closed keepalive connection
+2023/03/29 08:04:01 [info] 5008#9956: *298 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:04:10 [info] 5008#9956: *295 client 10.2.104.63 closed keepalive connection
+2023/03/29 08:04:11 [info] 5008#9956: *299 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:04:21 [info] 5008#9956: *300 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:04:31 [info] 5008#9956: *301 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:04:41 [info] 5008#9956: *302 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:04:51 [info] 5008#9956: *303 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:05:01 [info] 5008#9956: *304 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:05:11 [info] 5008#9956: *305 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:05:21 [info] 5008#9956: *306 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:05:31 [info] 5008#9956: *307 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:05:41 [info] 5008#9956: *308 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:05:51 [info] 5008#9956: *309 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:07:12 [info] 5008#9956: *310 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:10:07 [info] 5008#9956: *311 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:10:17 [info] 5008#9956: *312 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:10:27 [info] 5008#9956: *313 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:10:37 [info] 5008#9956: *314 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:15:08 [info] 5008#9956: *315 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:15:18 [info] 5008#9956: *318 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:15:28 [info] 5008#9956: *319 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:15:38 [info] 5008#9956: *320 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:20:08 [info] 5008#9956: *321 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:20:18 [info] 5008#9956: *322 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:20:28 [info] 5008#9956: *323 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:20:38 [info] 5008#9956: *324 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:25:09 [info] 5008#9956: *325 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:25:34 [info] 5008#9956: *326 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:30:10 [info] 5008#9956: *327 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:30:20 [info] 5008#9956: *330 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:30:30 [info] 5008#9956: *331 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:30:40 [info] 5008#9956: *332 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:31:26 [error] 5008#9956: *333 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.151, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 08:32:24 [info] 5008#9956: *334 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 10.34.64.151, server: 0.0.0.0:5556
+2023/03/29 08:33:15 [info] 5008#9956: *336 client prematurely closed connection while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-682.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 08:33:15 [info] 5008#9956: *337 client prematurely closed connection while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-683.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 08:33:27 [info] 5008#9956: *338 client prematurely closed connection (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 10.2.104.63, server: , request: "GET /hls/stream-682.ts HTTP/1.1", host: "10.34.64.151:5556"
+2023/03/29 08:35:00 [info] 5008#9956: *333 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:35:10 [info] 5008#9956: *341 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:35:20 [info] 5008#9956: *342 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:35:30 [info] 5008#9956: *343 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:35:40 [info] 5008#9956: *344 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:36:56 [info] 5008#9956: *345 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:41:48 [info] 5008#9956: *348 client 10.34.64.178 closed keepalive connection
+2023/03/29 08:41:49 [error] 5008#9956: *347 CreateFile() "C:\Users\Maxim.Abylkassov.KAZMINERALS\OneDrive - Kaz Minerals Management LLP\Soft\nginx-rtmp-win32-dev2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.34.64.178, server: , request: "GET /favicon.ico HTTP/1.1", host: "10.34.64.151:5556", referrer: "http://10.34.64.151:5556/"
+2023/03/29 08:45:02 [info] 5008#9956: *353 client 10.34.64.151 closed keepalive connection
+2023/03/29 08:48:31 [info] 5008#9956: *1 deleteStream, client: 10.34.64.151, server: 0.0.0.0:1935
+2023/03/29 08:48:31 [info] 5008#9956: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 10.34.64.151, server: 0.0.0.0:1935
+2023/03/29 08:48:31 [info] 5008#9956: *1 disconnect, client: 10.34.64.151, server: 0.0.0.0:1935
+2023/03/29 08:48:31 [info] 5008#9956: *1 deleteStream, client: 10.34.64.151, server: 0.0.0.0:1935
